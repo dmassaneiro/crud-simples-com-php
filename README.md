@@ -53,6 +53,6 @@ Adicione o codigo abaixo dentro da função getConexão(), caso seu banco seja M
         }
 ```
 
-## Credito
+## Creditos
 Diego Massaneiro<br>
 email: dmassaneiro95@gmail.com
