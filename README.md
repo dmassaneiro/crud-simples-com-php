@@ -20,7 +20,8 @@ create table usuario(
 
 Configurar o arquivo Conexao.php dentro da pasta 'app/conexao': <br>
 
-Adicione o codigo abaixo dentro da função getConexão(), caso seu banco seja Mysql ja está como padrão<br>
+Adicione o codigo abaixo dentro da função getConexão(), caso seu banco seja Mysql ja está como padrão.<br>
+Lembre-se de alterar os dados(dbname,user,password) na conexão de acordo com seu banco.
 
 -Conexão para MySql
 ```
@@ -53,6 +54,6 @@ Adicione o codigo abaixo dentro da função getConexão(), caso seu banco seja M
         }
 ```
 
-## Creditos
+## Créditos
 Diego Massaneiro<br>
 email: dmassaneiro95@gmail.com
