@@ -8,7 +8,7 @@ Instalação
 
 Criar a tabela no Banco de dados:
 
-```
+```sql
 create table usuario(
     id integer primary key AUTO_INCREMENT,
     nome varchar(200) not null,
@@ -24,7 +24,7 @@ Adicione o codigo abaixo dentro da função getConexão(), caso seu banco seja M
 Lembre-se de alterar os dados(dbname,user,password) na conexão de acordo com seu banco.
 
 -Conexão para MySql
-```
+```php
  if (!isset(self::$instance)) {
            self::$instance = new PDO('mysql:host=localhost;dbname=github', 'root', '', array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
            self::$instance->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -35,7 +35,7 @@ Lembre-se de alterar os dados(dbname,user,password) na conexão de acordo com se
 ```
 -Conexão para PostgreSql
 
-```
+```php
         $host = 'localhost;port=5432';
         $dbname = 'github';
         $user = 'root';
